@@ -22,27 +22,12 @@ e = time.time()
 print(e-s)
 
 
-# def foo(lala):
-#     a = 0
-#     for b in range(1,lala+1):
-#         c = b
-#         a = a + c
-#     return a
-# print(foo(10))
+def foo(lala):
+    a = 0
+    for b in range(1,lala+1):
+        c = b
+        a = a + c
+    return a
+print(foo(10))
 
 
-# def one(a):
-#     if a //2 == 0:
-#         num = 0
-#         i = 0
-#         for e in range(1,a+1):
-#             num = a-i+e
-#             i+=1
-#         return num
-#     elif a // 2 != 0:
-#         num = 0
-#         i = 1
-#         for e in range(1,a+1):
-#             num = a-i+e
-#             i+=1
-#         return num
