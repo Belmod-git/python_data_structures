@@ -5,71 +5,71 @@
 
 from pythonds.basic.stack import Stack
 
-# class Stack:
-#     def __init__(self):
-#         self.items = []
-#
-#     def isEmpty(self):
-#         return self.items == []
-#
-#     def push(self, item):
-#         self.items.append(item)
-#
-#     def pop(self):
-#         return self.items.pop()
-#
-#     def peek(self):
-#         return self.items[-1]
-#
-#     def size(self):
-#         return len(self.items)
+class Stack:
+    def __init__(self):
+        self.items = []
+
+    def isEmpty(self):
+        return self.items == []
+
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        return self.items.pop()
+
+    def peek(self):
+        return self.items[-1]
+
+    def size(self):
+        return len(self.items)
 
 
-# s = Stack()
-# print(s.isEmpty())
-# s.push(4)
-# s.push('lala')
+s = Stack()
+print(s.isEmpty())
+s.push(4)
+s.push('lala')
 
-# print(s.peek())
+print(s.peek())
 
-# s.push(True)
-# print(s.size())
+s.push(True)
+print(s.size())
 
-# print(s.isEmpty())
+print(s.isEmpty())
 
-# s.push(10.9)
-# print(s.pop())
-# print(s.pop())
-# print(s.size())
+s.push(10.9)
+print(s.pop())
+print(s.pop())
+print(s.size())
 
 
 # ()匹配
-# def parChecker(symbolString):
-# # symbolString  假设"( () )"
-#
-#     s = Stack()
-#     flag = True
-#     index = 0
-#
-#     while index < len(symbolString) and flag:
-#         symbol = symbolString[index]
-#         if symbol == "(":
-#             s.push(symbol)
-#         else:
-#             if s.isEmpty():
-#                 flag = False
-#             else:
-#                 s.pop()
-#                 print(s)
-#         index = index + 1
-#
-#     if flag and s.isEmpty():
-#         return True
-#     else:
-#         return False
-#
-# print(parChecker('(())'))
-# print(parChecker('((())'))
+def parChecker(symbolString):
+# symbolString  假设"( () )"
+
+    s = Stack()
+    flag = True
+    index = 0
+
+    while index < len(symbolString) and flag:
+        symbol = symbolString[index]
+        if symbol == "(":
+            s.push(symbol)
+        else:
+            if s.isEmpty():
+                flag = False
+            else:
+                s.pop()
+                print(s)
+        index = index + 1
+
+    if flag and s.isEmpty():
+        return True
+    else:
+        return False
+
+print(parChecker('(())'))
+print(parChecker('((())'))
 
 
 # {[()]}   (  [  )  ]

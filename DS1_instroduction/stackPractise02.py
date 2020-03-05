@@ -6,23 +6,23 @@
 from pythonds.basic.stack import Stack
 
 
-# def divide2(desNumber):
-#     s = Stack()
-#
-#     while desNumber > 0:
-#         rem = desNumber % 2
-#         s.push(rem)
-#         desNumber = desNumber // 2
-#
-#     binString = ''
-#     while not s.isEmpty():
-#         binString = binString + str(s.pop())
-#
-#     return binString
+def divide2(desNumber):
+    s = Stack()
+
+    while desNumber > 0:
+        rem = desNumber % 2
+        s.push(rem)
+        desNumber = desNumber // 2
+
+    binString = ''
+    while not s.isEmpty():
+        binString = binString + str(s.pop())
+
+    return binString
 
 
-# print(divide2(7))
-# print(divide2(233))
+print(divide2(7))
+print(divide2(233))
 
 
 """
