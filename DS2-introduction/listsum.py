@@ -29,14 +29,37 @@
 # print(ListSum2([1,3,5,7,9]))
 
 
+# def toStr(n,base):
+#     str1 = '0123456789ABCDEF'
+#     # 比如0,1< 2
+#     if n < base:
+#         return str1[n]
+#     else:
+#         return toStr(n // base,base) + str1[n%base]   # 将递归调用的结果和str1的字符串拼接
+
+
+# print(toStr(100,10))
+# print(toStr(1453,16))
+
+
+# 栈实现递归
+from pythonds.basic.stack import Stack
+
+rStack = Stack()
+
 def toStr(n,base):
-    str1 = '0123456789ABCDEF'
-    # 比如0,1< 2
-    if n < base:
-        return str1[n]
-    else:
-        return toStr(n // base,base) + str1[n%base]
+    convertString = '0123456789ABCDEF'
 
+    while n > 0:
+        if n < base:
+            rStack.push(convertString[n])
+        else:
+            rStack.push(convertString[n%base])
 
-print(toStr(100,10))
+        n = n // base
+
+    res = ''
+    while not rStack.isEmpty():
+        res = res + str(rStack.pop())
+    return res
 print(toStr(1453,16))
