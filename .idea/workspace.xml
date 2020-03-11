@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef0b745-c920-4ba6-aa61-b9c1b05aea92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DS4_tree/treePractise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DS3-sortandsraech/sortPractise.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS3-sortandsraech/sortPractise.py" afterDir="false" />
     </list>
@@ -14,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DS3-sortandsraech/sortPractise.py">
+        <entry file="file://$PROJECT_DIR$/DS4_tree/treePractise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            <state relative-caret-position="152">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -49,13 +50,14 @@
         <option value="$PROJECT_DIR$/DS2-introduction/recursionPractise.py" />
         <option value="$PROJECT_DIR$/DS3-sortandsraech/searchPractise.py" />
         <option value="$PROJECT_DIR$/DS3-sortandsraech/sortPractise.py" />
+        <option value="$PROJECT_DIR$/DS4_tree/treePractise.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="977" />
-    <option name="y" value="23" />
-    <option name="width" value="950" />
+    <option name="x" value="978" />
+    <option name="y" value="20" />
+    <option name="width" value="947" />
     <option name="height" value="1025" />
   </component>
   <component name="ProjectView">
@@ -63,6 +65,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,19 +76,18 @@
             <path>
               <item name="python_data_structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_data_structures" type="462c0819:PsiDirectoryNode" />
-              <item name="DS3-sortandsraech" type="462c0819:PsiDirectoryNode" />
+              <item name="DS4_tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/py-dj/lx/good_luck1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -108,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sortPractise">
+  <component name="RunManager" selected="Python.treePractise">
     <configuration name="listsum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_data_structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stackPractise02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="treePractise" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_data_structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,12 +207,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DS1_instroduction" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DS4_tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DS1_instroduction/stackPractise02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DS4_tree/treePractise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.treePractise" />
         <item itemvalue="Python.sortPractise" />
         <item itemvalue="Python.searchPractise" />
         <item itemvalue="Python.recursionPractise" />
         <item itemvalue="Python.listsum" />
-        <item itemvalue="Python.stackPractise02" />
       </list>
     </recent_temporary>
   </component>
@@ -249,24 +251,25 @@
       <workItem from="1583456145891" duration="8820000" />
       <workItem from="1583712033037" duration="8135000" />
       <workItem from="1583740145823" duration="1551000" />
-      <workItem from="1583800359050" duration="10302000" />
+      <workItem from="1583800359050" duration="11410000" />
+      <workItem from="1583884785490" duration="8710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75041000" />
+    <option name="totallyTimeSpent" value="84859000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="782" y="19" width="760" height="820" extended-state="0" />
+    <frame x="783" y="16" width="757" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25641027" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25608012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27108434" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35260117" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22289157" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1746988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -274,7 +277,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.37349397" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.15662651" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -290,7 +293,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_data_structures$practise.coverage" NAME="practise Coverage Results" MODIFIED="1583112867757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1_instroduction" />
     <SUITE FILE_PATH="coverage/python_data_structures$disorderString.coverage" NAME="disorderString Coverage Results" MODIFIED="1583133495342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1_instroduction" />
-    <SUITE FILE_PATH="coverage/python_data_structures$sortPractise.coverage" NAME="sortPractise Coverage Results" MODIFIED="1583821819313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS3-sortandsraech" />
+    <SUITE FILE_PATH="coverage/python_data_structures$sortPractise.coverage" NAME="sortPractise Coverage Results" MODIFIED="1583909838573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS3-sortandsraech" />
     <SUITE FILE_PATH="coverage/python_data_structures$stackPractise02.coverage" NAME="stackPractise02 Coverage Results" MODIFIED="1583459988980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1_instroduction" />
     <SUITE FILE_PATH="coverage/python_data_structures$listPractise1.coverage" NAME="listPractise1 Coverage Results" MODIFIED="1583198052443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1_instroduction" />
     <SUITE FILE_PATH="coverage/python_data_structures$searchPractise.coverage" NAME="searchPractise Coverage Results" MODIFIED="1583720095558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS3-sortandsraech" />
@@ -299,6 +302,7 @@
     <SUITE FILE_PATH="coverage/python_data_structures$queuePractise01.coverage" NAME="queuePractise01 Coverage Results" MODIFIED="1583374218993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1_instroduction" />
     <SUITE FILE_PATH="coverage/python_data_structures$listsum.coverage" NAME="listsum Coverage Results" MODIFIED="1583476009576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS2-introduction" />
     <SUITE FILE_PATH="coverage/python_data_structures$DequePractise02.coverage" NAME="DequePractise02 Coverage Results" MODIFIED="1583392032644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1_instroduction" />
+    <SUITE FILE_PATH="coverage/python_data_structures$treePractise.coverage" NAME="treePractise Coverage Results" MODIFIED="1583912323961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS4_tree" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -387,8 +391,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DS3-sortandsraech/sortPractise.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="251">
+          <caret line="204" column="27" lean-forward="true" selection-start-line="204" selection-start-column="27" selection-end-line="204" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS4_tree/treePractise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
